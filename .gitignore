@@ -1,0 +1,11 @@
+################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Splunk.zip
+/.vs/decisions-mod-skeleton/v16/.suo
+/.vs/Splunk/v16/Server/sqlite3
+/.vs
+/Splunk/bin/Debug
+/Splunk/obj/Debug
+/Splunk/obj/Release

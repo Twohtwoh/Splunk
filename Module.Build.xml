@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+
+<CreateModuleInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Clients>
+    <DotNetCoreDll>C:\Program Files\Decisions\Decisions Services Manager\framework\CoreServicesClients.Net.dll</DotNetCoreDll>
+    <DotNetFrontendFrameworkDll>C:\Program Files\Decisions\Decisions Services Manager\framework\DecisionsFramework.Net.dll</DotNetFrontendFrameworkDll>
+    <SLCoreDll>..\..\lib\CoreServicesClients.SL.dll</SLCoreDll>
+    <SLFrontendFrameworkDll>..\..\output\bincore\DecisionsFramework.SL.dll</SLFrontendFrameworkDll>
+    <SilverLightsSDKAssembliesPath>C:\Program Files\Decisions\Decisions Services Manager\SilverLightAssemblies</SilverLightsSDKAssembliesPath>
+    <References>
+	</References>
+	<CopyReferenceToModule>true</CopyReferenceToModule>
+  </Clients>
+  <Resources NoComponents="true">
+    <ServicesDlls>
+      <string>.\Splunk\bin\Debug\Splunk.dll</string>    
+    </ServicesDlls>
+    <CliDlls/>
+    <WebPages/>
+    <SilverlightDlls>	
+	</SilverlightDlls>	
+    <AgentDlls />
+    <InstallScript>		
+	</InstallScript>
+    <SqlScripts />
+    <ObjectsToImport>     	
+    </ObjectsToImport>
+    <MsSqlScript />
+  </Resources>
+<Version></Version>
+	<Description>This module has steps that allow you to connect to things and use custom flow steps and rules.</Description>
+</CreateModuleInfo>
